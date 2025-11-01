@@ -1,0 +1,13 @@
+[Unit]
+Description=Enables Surface physical buttons.
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/modprobe -r soc_button_array
+ExecStartPost=/sbin/modprobe soc_button_array
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+Alias=surfbuttd.service
