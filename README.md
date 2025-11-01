@@ -1,4 +1,5 @@
 ![surfacebuttonsd.svg](surfacebuttonsd.svg)
+# surfacebuttonsd
 Get surface's physical buttons working again!
 # What is it?
 surfacebuttonsd is a systemd unit that can re-enable the physical buttons of your surface on Linux.
