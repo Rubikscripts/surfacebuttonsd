@@ -1,4 +1,4 @@
-<img src="surfacebuttonsd.svg" alt="surfbuttdlogo" width="200" height="200"/>
+![surfacebuttonsd.svg](surfacebuttonsd.svg)/>
 Get surface's physical buttons working again!
 # What is it?
 surfacebuttonsd is a systemd unit that can re-enable the physical buttons of your surface on Linux.
